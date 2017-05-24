@@ -1,0 +1,70 @@
+#body{
+    background-color: gray;
+    padding: 1%;
+}
+
+#maincontainer{
+
+    background-color: azure;
+    height: 95vh;
+    overflow-y: scroll;
+    word-break: break-all;
+    padding: 2%;
+
+}
+
+#header{
+    background-color: lavender;
+}
+
+#header > ul{
+    float: right;   
+}
+
+#welcome{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    padding: 2%;
+    text-align: center;
+}
+
+#signinForm, #signupForm{
+    width: 50%;
+    margin: 10% 25%;
+}
+
+label{
+    font-weight: bold;
+}
+
+.error{
+    color: red;
+    font-weight: bolder;
+}
+
+#signOut{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+
+#feature{
+    padding: 2%;
+}
+
+#bookList{
+    cursor: pointer;
+    font-weight: 800;
+    
+}
+
+#bookImg{
+    float: right;
+}
+
+.bookDetail{
+    color: indigo;
+}
+
